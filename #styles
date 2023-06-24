@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#wrapper,
+.color-picker-wrapper {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.item-color-wrapper {
+  padding: 5px;
+}
+
+.item-color {
+  border: 2px solid #aaa;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  color: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-border {
+  border: 2px solid rgba(139, 61, 255) !important;
+  cursor: pointer;
+}
